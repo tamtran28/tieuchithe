@@ -355,7 +355,7 @@ def process_pos(df_pos_raw, df_trans_raw, start_date, end_date):
 
 st.set_page_config(page_title="Xử lý dữ liệu KTNB", layout="wide")
 
-st.title("📌 Ứng dụng phân tích dữ liệu KTNB – Streamlit")
+st.title("📌 Tiêu chí thẻ")
 st.write("Phiên bản tự động hóa theo yêu cầu của bạn.")
 
 tab1, tab2, tab3 = st.tabs(["1️⃣ Nhập file – Thẻ", "2️⃣ Nhập file – POS", "3️⃣ Xuất file"])
